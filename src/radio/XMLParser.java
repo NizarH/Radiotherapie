@@ -39,16 +39,17 @@ public class XMLParser {
         }
     }
     
-    // Haalt een element op uit een XML file
+    // Haalt elementen op uit een XML file
     public NodeList getElements()
     {
         return docEle.getChildNodes();
     }
-    
+    // individuele element ophalen
     public NodeList getElement(String name)
     {
         return docEle.getElementsByTagName(name);
     }
+    
     
     public void getElementsByNode(Node node) {
         // Get data of this node
