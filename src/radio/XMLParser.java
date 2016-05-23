@@ -14,7 +14,7 @@ import radio.HDSObjects.HDSData;
 
 /**
  *
- * @author mgkersloot
+ * @author mgkersloot | nahirzalla
  */
 public class XMLParser {
     private Element docEle;
@@ -39,6 +39,7 @@ public class XMLParser {
         }
     }
     
+    // Haalt een element op uit een XML file
     public NodeList getElements()
     {
         return docEle.getChildNodes();
